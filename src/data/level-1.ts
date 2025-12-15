@@ -1,0 +1,36 @@
+export const level1Data = [
+    // Single Digits
+    {word: "զրո", pronunciation: "Zro", meaning: "0"},
+    {word: "մեկ", pronunciation: "Mek", meaning: "1"},
+    {word: "երկու", pronunciation: "Yerku", meaning: "2"},
+    {word: "երեք", pronunciation: "Yerek", meaning: "3"},
+    {word: "չորս", pronunciation: "Chors", meaning: "4"},
+    {word: "հինգ", pronunciation: "Hing", meaning: "5"},
+    {word: "վեց", pronunciation: "Vets", meaning: "6"},
+    {word: "յոթ", pronunciation: "Yot", meaning: "7"},
+    {word: "ութ", pronunciation: "Ut", meaning: "8"},
+    {word: "ինը", pronunciation: "Iny", meaning: "9"},
+    // Double Digits
+    {word: "տասը", pronunciation: "Tasy", meaning: "10"},
+    {word: "տասնմեկ", pronunciation: "Tasnmek", meaning: "11"},
+    {word: "տասներկու", pronunciation: "Tasnerku", meaning: "12"},
+    {word: "տասնհինգ", pronunciation: "Tasnhing", meaning: "15"},
+    {word: "քսան", pronunciation: "Qsan", meaning: "20"},
+    {word: "երեսուն", pronunciation: "Yeresun", meaning: "30"},
+    {word: "քառասուն", pronunciation: "Qarasun", meaning: "40"},
+    {word: "հիսուն", pronunciation: "Hisun", meaning: "50"},
+    {word: "վաթսուն", pronunciation: "Vatsun", meaning: "60"},
+    {word: "իննսուն", pronunciation: "Innsun", meaning: "90"},
+    // Triple Digits
+    {word: "հարյուր", pronunciation: "Haryur", meaning: "100"},
+    {word: "երկու հարյուր", pronunciation: "Yerku haryur", meaning: "200"},
+    {word: "երեք հարյուր", pronunciation: "Yerek haryur", meaning: "300"},
+    {word: "հինգ հարյուր", pronunciation: "Hing haryur", meaning: "500"},
+    {word: "յոթ հարյուր", pronunciation: "Yot haryur", meaning: "700"},
+    {word: "ինը հարյուր", pronunciation: "Iny haryur", meaning: "900"},
+    // Four Digits
+    {word: "հազար", pronunciation: "Hazar", meaning: "1000"},
+    {word: "երկու հազար", pronunciation: "Yerku hazar", meaning: "2000"},
+    {word: "հինգ հազար", pronunciation: "Hing hazar", meaning: "5000"},
+    {word: "տասը հազար", pronunciation: "Tasy hazar", meaning: "10000"},
+]

@@ -1,0 +1,35 @@
+{
+  "name": "Eastern Armenian Flashcards - Learn Armenian Vocabulary",
+  "short_name": "Armenian Flash",
+  "description": "Master Eastern Armenian vocabulary with interactive flashcards. Free online Armenian language learning tool.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "categories": ["education", "language"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    }
+  ]
+}
+

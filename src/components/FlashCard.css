@@ -1,0 +1,147 @@
+.flashcard-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.flashcard {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  transition: transform 0.3s ease;
+}
+
+.flashcard:active {
+  transform: scale(0.98);
+}
+
+.card-front,
+.card-back {
+  width: 100%;
+  text-align: center;
+}
+
+.armenian-word {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.pronunciation {
+  font-size: 1.5rem;
+  color: #718096;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.meaning {
+  font-size: 2rem;
+  color: #4a5568;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.tap-to-reveal {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.tap-to-reveal:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(102, 126, 234, 0.5);
+}
+
+.tap-to-reveal:active {
+  transform: translateY(0);
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.action-buttons button {
+  padding: 16px 24px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-knew {
+  background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(72, 187, 120, 0.4);
+}
+
+.btn-knew:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(72, 187, 120, 0.5);
+}
+
+.btn-didnt-know {
+  background: linear-gradient(135deg, #fc8181 0%, #f56565 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(252, 129, 129, 0.4);
+}
+
+.btn-didnt-know:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(252, 129, 129, 0.5);
+}
+
+.action-buttons button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+  .flashcard-container {
+    padding: 15px;
+  }
+
+  .flashcard {
+    min-height: 300px;
+    padding: 30px 20px;
+  }
+
+  .armenian-word {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .pronunciation {
+    font-size: 1.2rem;
+  }
+
+  .meaning {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .tap-to-reveal,
+  .action-buttons button {
+    font-size: 1rem;
+    padding: 14px 20px;
+  }
+}
+

@@ -1,0 +1,22 @@
+export const level7Data =  [
+    {word: "գույն", pronunciation: "Guyn", meaning: "Color"},
+    {word: "կարմիր", pronunciation: "Karmir", meaning: "Red"},
+    {word: "կապույտ", pronunciation: "Kapuyt", meaning: "Blue"},
+    {word: "կանաչ", pronunciation: "Kanach", meaning: "Green"},
+    {word: "դեղին", pronunciation: "Deghin", meaning: "Yellow"},
+    {word: "նարնջագույն", pronunciation: "Narndjaguyn", meaning: "Orange"},
+    {word: "վարդագույն", pronunciation: "Vardaguyn", meaning: "Pink"},
+    {word: "մանուշակագույն", pronunciation: "Manushakaguyn", meaning: "Purple/Violet"},
+    {word: "շագանակագույն", pronunciation: "Shaganakaguyn", meaning: "Brown"},
+    {word: "սև", pronunciation: "Sev", meaning: "Black"},
+    {word: "սպիտակ", pronunciation: "Spitak", meaning: "White"},
+    {word: "մոխրագույն", pronunciation: "Mokhraguyn", meaning: "Gray"},
+    {word: "ոսկեգույն", pronunciation: "Voskeguyn", meaning: "Gold/Golden"},
+    {word: "արծաթագույն", pronunciation: "Artsataguyn", meaning: "Silver"},
+    {word: "բաց", pronunciation: "Bats", meaning: "Light (color)"},
+    {word: "մուգ", pronunciation: "Mug", meaning: "Dark (color)"},
+    {word: "վառ", pronunciation: "Varr", meaning: "Bright"},
+    {word: "գունավոր", pronunciation: "Gunavor", meaning: "Colorful"},
+    {word: "անգույն", pronunciation: "Anguyn", meaning: "Colorless"},
+    {word: "բեժ", pronunciation: "Bezh", meaning: "Beige"}
+]

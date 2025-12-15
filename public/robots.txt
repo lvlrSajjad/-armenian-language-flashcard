@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap location (update with your actual domain)
+Sitemap: https://armenian-language-flashcard.web.app/sitemap.xml
+
+# Disallow admin or config files if any
+Disallow: /firebase.json
+Disallow: /*.config.js
+Disallow: /*.config.ts
+
