@@ -16,3 +16,10 @@ export interface Deck {
   description: string;
   words: Word[];
 }
+
+export interface Category {
+  id: string;
+  name: string;
+  description: string;
+  decks: Deck[];
+}

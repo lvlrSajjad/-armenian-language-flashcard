@@ -1,29 +1,56 @@
 import { useState } from 'react'
 import './App.css'
+import { CategorySelection } from './components/CategorySelection'
 import { DeckSelection } from './components/DeckSelection'
 import { FlashCardView } from './components/FlashCardView'
 import { SEO } from './components/SEO'
-import { decks } from './data/vocabulary'
-import type { Deck } from './types'
+import { categories } from './data/vocabulary'
+import type { Deck, Category } from './types'
 
 function App() {
+  const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
   const [selectedDeck, setSelectedDeck] = useState<Deck | null>(null);
+
+  const handleSelectCategory = (category: Category) => {
+    setSelectedCategory(category);
+  };
 
   const handleSelectDeck = (deck: Deck) => {
     setSelectedDeck(deck);
+  };
+
+  const handleBackToCategories = () => {
+    setSelectedCategory(null);
+    setSelectedDeck(null);
   };
 
   const handleBackToDecks = () => {
     setSelectedDeck(null);
   };
 
-  // Show deck selection if no deck is selected
+  // Show category selection if no category is selected
+  if (!selectedCategory) {
+    return (
+      <>
+        <SEO />
+        <main>
+          <CategorySelection categories={categories} onSelectCategory={handleSelectCategory} />
+        </main>
+      </>
+    );
+  }
+
+  // Show deck selection if category is selected but no deck
   if (!selectedDeck) {
     return (
       <>
         <SEO />
         <main>
-          <DeckSelection decks={decks} onSelectDeck={handleSelectDeck} />
+          <DeckSelection
+            category={selectedCategory}
+            onSelectDeck={handleSelectDeck}
+            onBack={handleBackToCategories}
+          />
         </main>
       </>
     );

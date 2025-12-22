@@ -1,4 +1,4 @@
-import type {Deck} from '../types';
+import type {Deck, Category} from '../types';
 
 import {level0Data} from "./level-0.ts";
 import {level1Data} from "./level-1.ts";
@@ -211,5 +211,14 @@ export const decks: Deck[] = [
         name: "🎯 Level 22: Definite Articles - Practice Quiz",
         description: "Test yourself! Choose the correct definite article (ը or ն) for each sentence",
         words: level22Data,
+    }
+];
+
+export const categories: Category[] = [
+    {
+        id: "all-levels",
+        name: "📚 All Levels",
+        description: "Complete Armenian learning path from alphabet to advanced grammar",
+        decks: decks,
     }
 ];

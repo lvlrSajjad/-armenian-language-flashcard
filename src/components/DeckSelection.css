@@ -2,6 +2,27 @@
   min-height: 100vh;
   padding: 2rem;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  position: relative;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+  backdrop-filter: blur(10px);
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateX(-4px);
 }
 
 .deck-header {
@@ -19,6 +40,29 @@
 .deck-header .subtitle {
   font-size: 1.2rem;
   opacity: 0.9;
+}
+
+.category-section {
+  max-width: 1200px;
+  margin: 0 auto 4rem auto;
+}
+
+.category-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.category-header h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.category-description {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin: 0;
 }
 
 .deck-grid {
@@ -47,7 +91,13 @@
 }
 
 .deck-card h2 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0;
+}
+
+.deck-card h3 {
+  font-size: 1.5rem;
   color: #333;
   margin: 0;
 }

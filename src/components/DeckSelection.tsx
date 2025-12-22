@@ -1,12 +1,13 @@
-import type { Deck } from '../types';
+import type { Deck, Category } from '../types';
 import './DeckSelection.css';
 
 interface DeckSelectionProps {
-  decks: Deck[];
+  category: Category;
   onSelectDeck: (deck: Deck) => void;
+  onBack: () => void;
 }
 
-export function DeckSelection({ decks, onSelectDeck }: DeckSelectionProps) {
+export function DeckSelection({ category, onSelectDeck, onBack }: DeckSelectionProps) {
   const getDeckProgress = (deck: Deck) => {
     const saved = localStorage.getItem(`vocabularyProgress_${deck.id}`);
     if (!saved) {
@@ -23,13 +24,17 @@ export function DeckSelection({ decks, onSelectDeck }: DeckSelectionProps) {
 
   return (
     <div className="deck-selection">
+      <button className="back-button" onClick={onBack}>
+        ← Back to Categories
+      </button>
+
       <header className="deck-header">
-        <h1>🇦🇲 Armenian Vocabulary</h1>
-        <p className="subtitle">Choose a deck to start learning</p>
+        <h1>{category.name}</h1>
+        <p className="subtitle">{category.description}</p>
       </header>
 
       <div className="deck-grid">
-        {decks.map((deck) => {
+        {category.decks.map((deck) => {
           const progress = getDeckProgress(deck);
           return (
             <div
