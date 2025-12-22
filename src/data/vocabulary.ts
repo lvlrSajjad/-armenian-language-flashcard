@@ -24,6 +24,8 @@ import {level13Data} from "./level-13.ts";
 import {level14Data} from "./level-14.ts";
 import {level15Data} from "./level-15.ts";
 import {level16Data} from "./level-16.ts";
+import {level17Data} from "./level-17.ts";
+import {level18Data} from "./level-18.ts";
 
 export const decks: Deck[] = [
     {
@@ -169,5 +171,17 @@ export const decks: Deck[] = [
         name: "👉 Level 16: Basic Imperatives - Commands",
         description: "Learn how to give commands and make requests in Armenian (simple present tense)",
         words: level16Data
+    },
+    {
+        id: "level17-days-months",
+        name: "📅 Level 17: Days of the Week & Months",
+        description: "Learn all weekdays, months, and time-related vocabulary",
+        words: level17Data
+    },
+    {
+        id: "level18-telling-time",
+        name: "🕐 Level 18: Telling Time",
+        description: "Master telling time, times of day, and time expressions in Armenian",
+        words: level18Data,
     }
 ];
