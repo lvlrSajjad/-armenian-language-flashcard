@@ -26,6 +26,10 @@ import {level15Data} from "./level-15.ts";
 import {level16Data} from "./level-16.ts";
 import {level17Data} from "./level-17.ts";
 import {level18Data} from "./level-18.ts";
+import {level19Data} from "./level-19.ts";
+import {level20Data} from "./level-20.ts";
+import {level21Data} from "./level-21.ts";
+import {level22Data} from "./level-22.ts";
 
 export const decks: Deck[] = [
     {
@@ -183,5 +187,29 @@ export const decks: Deck[] = [
         name: "🕐 Level 18: Telling Time",
         description: "Master telling time, times of day, and time expressions in Armenian",
         words: level18Data,
+    },
+    {
+        id: "level19-advanced-vocabulary",
+        name: "🌟 Level 19: Advanced Vocabulary & Expressions",
+        description: "Expand your Armenian vocabulary with advanced words and phrases",
+        words: level19Data,
+    },
+    {
+        id: "level20-how-much",
+        name: "❓ Level 20: How Much/Many - Քանի (Qani)",
+        description: "Learn to ask about age and quantities using Քանի with all pronouns",
+        words: level20Data,
+    },
+    {
+        id: "level21-definite-articles",
+        name: "📌 Level 21: Definite Articles - The (ը/ն)",
+        description: "Master using ը and ն to say 'the' in Armenian with practical examples",
+        words: level21Data,
+    },
+    {
+        id: "level22-definite-articles-quiz",
+        name: "🎯 Level 22: Definite Articles - Practice Quiz",
+        description: "Test yourself! Choose the correct definite article (ը or ն) for each sentence",
+        words: level22Data,
     }
 ];

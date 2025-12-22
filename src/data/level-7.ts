@@ -18,5 +18,15 @@ export const level7Data =  [
     {word: "վառ", pronunciation: "Varr", meaning: "Bright"},
     {word: "գունավոր", pronunciation: "Gunavor", meaning: "Colorful"},
     {word: "անգույն", pronunciation: "Anguyn", meaning: "Colorless"},
-    {word: "բեժ", pronunciation: "Bezh", meaning: "Beige"}
+    {word: "բեժ", pronunciation: "Bezh", meaning: "Beige"},
+    {word: "կարմիր մեքենա", pronunciation: "Karmir mekena", meaning: "Red car"},
+    {word: "կապույտ շապիկ", pronunciation: "Kapuyt shapik", meaning: "Blue t-shirt"},
+    {word: "կանաչ աչքեր", pronunciation: "Kanach achker", meaning: "Green eyes"},
+    {word: "դեղին զգեստ", pronunciation: "Deghin zgest", meaning: "Yellow dress"},
+    {word: "սև կոշիկներ", pronunciation: "Sev koshikner", meaning: "Black shoes"},
+    {word: "սպիտակ պատեր", pronunciation: "Spitak pater", meaning: "White walls"},
+    {word: "շագանակագույն մազեր", pronunciation: "Shaganakaguyn mazer", meaning: "Brown hair"},
+    {word: "վարդագույն վարագույրներ", pronunciation: "Vardaguyn varaguyrner", meaning: "Pink curtains"},
+    {word: "մոխրագույն մեքենա", pronunciation: "Mokhraguyn mekena", meaning: "Gray car"},
+    {word: "կապույտ աչքեր", pronunciation: "Kapuyt achker", meaning: "Blue eyes"}
 ]
