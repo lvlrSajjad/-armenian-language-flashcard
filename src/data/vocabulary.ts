@@ -31,7 +31,7 @@ import {level20Data} from "./level-20.ts";
 import {level21Data} from "./level-21.ts";
 import {level22Data} from "./level-22.ts";
 
-export const decks: Deck[] = [
+export const essentialDecks: Deck[] = [
     {
         id: "level0-alphabet",
         name: "🔤 Level 0: Armenian Alphabet",
@@ -50,6 +50,9 @@ export const decks: Deck[] = [
         description: "Learn Basic Armenian Words!",
         words: level2Data,
     },
+]
+
+export const decks: Deck[] = [
     {
         id: "level3-verbs",
         name: "🏃‍♂️ Level 3: 50 Most Used Verbs (Present Tense)",
@@ -215,6 +218,12 @@ export const decks: Deck[] = [
 ];
 
 export const categories: Category[] = [
+    {
+        id: "essential",
+        name: "🔥 Essential",
+        description: "Alphabet, Numbers, and Basic Words",
+        decks: essentialDecks,
+    },
     {
         id: "all-levels",
         name: "📚 All Levels",
