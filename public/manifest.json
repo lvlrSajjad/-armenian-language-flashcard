@@ -4,8 +4,8 @@
   "description": "Master Eastern Armenian vocabulary with interactive flashcards. Free online Armenian language learning tool.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "background_color": "#667eea",
+  "theme_color": "#667eea",
   "orientation": "portrait-primary",
   "categories": ["education", "language"],
   "lang": "en",
@@ -32,4 +32,3 @@
     }
   ]
 }
-
