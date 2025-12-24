@@ -27,7 +27,9 @@ import {level16Data} from "./level-16.ts";
 import {level17Data} from "./level-17.ts";
 import {level18Data} from "./level-18.ts";
 import {level19Data} from "./level-19.ts";
+import {level19AdvancedTimeData} from "./level-19-advanced-time.ts";
 import {level20Data} from "./level-20.ts";
+import {level20DatesOrdinalsData} from "./level-20-dates-ordinals.ts";
 import {level21Data} from "./level-21.ts";
 import {level22Data} from "./level-22.ts";
 
@@ -51,6 +53,34 @@ export const essentialDecks: Deck[] = [
         words: level2Data,
     },
 ]
+
+export const timeAndDateDecks: Deck[] = [
+    {
+        id: "level17-days-months",
+        name: "📅 Level 17: Days of the Week & Months",
+        description: "Learn all weekdays, months, and time-related vocabulary",
+        words: level17Data
+    },
+    {
+        id: "level18-telling-time",
+        name: "🕐 Level 18: Telling Time",
+        description: "Master telling time, times of day, and time expressions in Armenian",
+        words: level18Data,
+    },
+    {
+        id: "level19-advanced-time",
+        name: "⏰ Level 19: Advanced Time - Past & Before",
+        description: "Master 'անց' (past) and 'պակաս' (before) patterns, plus the difference between 'ն է' and 'ին'",
+        words: level19AdvancedTimeData,
+    },
+    {
+        id: "level20-dates-ordinals",
+        name: "📆 Level 20: Dates & Ordinal Numbers",
+        description: "Learn to express dates, ask 'երբ' (when) questions, and use ordinal numbers with months",
+        words: level20DatesOrdinalsData,
+    },
+]
+
 
 export const decks: Deck[] = [
     {
@@ -180,18 +210,6 @@ export const decks: Deck[] = [
         words: level16Data
     },
     {
-        id: "level17-days-months",
-        name: "📅 Level 17: Days of the Week & Months",
-        description: "Learn all weekdays, months, and time-related vocabulary",
-        words: level17Data
-    },
-    {
-        id: "level18-telling-time",
-        name: "🕐 Level 18: Telling Time",
-        description: "Master telling time, times of day, and time expressions in Armenian",
-        words: level18Data,
-    },
-    {
         id: "level19-advanced-vocabulary",
         name: "🌟 Level 19: Advanced Vocabulary & Expressions",
         description: "Expand your Armenian vocabulary with advanced words and phrases",
@@ -223,6 +241,12 @@ export const categories: Category[] = [
         name: "🔥 Essential",
         description: "Alphabet, Numbers, and Basic Words",
         decks: essentialDecks,
+    },
+    {
+        id: "date-and-time",
+        name: "Date & Time",
+        description: "Talking about date and time in Armenian",
+        decks: timeAndDateDecks,
     },
     {
         id: "all-levels",
