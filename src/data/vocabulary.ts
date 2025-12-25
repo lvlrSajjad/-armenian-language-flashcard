@@ -36,19 +36,37 @@ import {level22Data} from "./level-22.ts";
 export const essentialDecks: Deck[] = [
     {
         id: "level0-alphabet",
-        name: "🔤 Level 0: Armenian Alphabet",
+        name: "🔤Armenian Alphabet",
         description: "Start from the very beginning! Learn the Armenian letters",
         words: level0Data,
     },
     {
         id: "level1-numbers",
-        name: "🔢 Level 1: Numbers",
+        name: "🔢Numbers",
         description: "Count in Armenian - from zero to thousands",
         words: level1Data
     },
     {
+        id: "level7-colors",
+        name: "🎨Colors",
+        description: "Learn the full spectrum of colors in Armenian",
+        words: level7Data
+    },
+    {
+        id: "level8-question-words",
+        name: "❓Question Words",
+        description: "Essential question words to ask anything in Armenian",
+        words: level8Data
+    },
+    {
+        id: "level17-days-months",
+        name: "📅 Days of the Week & Months",
+        description: "Learn all weekdays, months, and time-related vocabulary",
+        words: level17Data
+    },
+    {
         id: "level2-bossfight",
-        name: "Level 2: Basic Words",
+        name: "Common Words",
         description: "Learn Basic Armenian Words!",
         words: level2Data,
     },
@@ -79,45 +97,33 @@ export const timeAndDateDecks: Deck[] = [
         description: "Learn to express dates, ask 'երբ' (when) questions, and use ordinal numbers with months",
         words: level20DatesOrdinalsData,
     },
-]
-
-
-export const decks: Deck[] = [
     {
         id: "level3-verbs",
-        name: "🏃‍♂️ Level 3: 50 Most Used Verbs (Present Tense)",
+        name: "🏃‍♂️Most Used Verbs (Present Tense)",
         description: "Master the most common Armenian verbs in present tense",
         words: level3Data
     },
     {
         id: "level4-jobs",
-        name: "💼 Level 4: 50 Most Used Jobs",
+        name: "💼50 Most Used Jobs",
         description: "Common professions and occupations in Armenian",
         words: level4Data
     },
     {
         id: "level5-everyday-objects",
-        name: "🏠 Level 5: 50 Most Used Everyday Objects",
+        name: "🏠50 Most Used Everyday Objects",
         description: "Essential items you use and see daily",
         words: level5Data
     },
+]
+
+
+export const decks: Deck[] = [
     {
         id: "level6-mixed-vocabulary",
         name: "📝 Level 6: Mixed Vocabulary",
         description: "Additional useful words for everyday conversation",
         words: level6Data
-    },
-    {
-        id: "level7-colors",
-        name: "🎨 Level 7: Colors",
-        description: "Learn the full spectrum of colors in Armenian",
-        words: level7Data
-    },
-    {
-        id: "level8-question-words",
-        name: "❓ Level 8: Question Words",
-        description: "Essential question words to ask anything in Armenian",
-        words: level8Data
     },
     {
         id: "level9-question-examples",

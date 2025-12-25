@@ -30,4 +30,14 @@ export const level17Data = [
     {word: "այսօր", pronunciation: "Aysor", meaning: "today"},
     {word: "երեկ", pronunciation: "Yerek", meaning: "yesterday"},
     {word: "վաղը", pronunciation: "Vaghy", meaning: "tomorrow"},
+
+    // Seasons & Holidays
+    {word: "եղանակ", pronunciation: "Yeghanak", meaning: "season"},
+    {word: "գարուն", pronunciation: "Garun", meaning: "spring"},
+    {word: "ամառ", pronunciation: "Amar", meaning: "summer"},
+    {word: "աշուն", pronunciation: "Ashun", meaning: "autumn"},
+    {word: "ձմեռ", pronunciation: "Dzmer", meaning: "winter"},
+    {word: "Սուրբ Ծնունդ", pronunciation: "Surb Tsnund", meaning: "Christmas"},
+    {word: "Նոր տարի", pronunciation: "Nor Tari", meaning: "New Year"},
+    {word: "ծննդյան օր", pronunciation: "Tsnndyan or", meaning: "birthday"},
 ];
