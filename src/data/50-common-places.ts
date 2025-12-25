@@ -1,0 +1,66 @@
+export const commonPlaces = [
+    { word: "տուն", pronunciation: "Tun", meaning: "house" },
+    { word: "դպրոց", pronunciation: "Dprots", meaning: "school" },
+    { word: "գործարան", pronunciation: "Gortsaran", meaning: "factory" },
+    { word: "հիվանդանոց", pronunciation: "Hivandanots", meaning: "hospital" },
+    { word: "խանութ", pronunciation: "Khanut", meaning: "store/shop" },
+    { word: "բանկ", pronunciation: "Bank", meaning: "bank" },
+    { word: "ռեստորան", pronunciation: "Restoran", meaning: "restaurant" },
+    { word: "մարզադաշտ", pronunciation: "Marzadash", meaning: "stadium" },
+    { word: "թանգարան", pronunciation: "Tanganaran", meaning: "museum" },
+    { word: "գրադարան", pronunciation: "Gradaran", meaning: "library" },
+
+    { word: "հյուրանոց", pronunciation: "Hyuranots", meaning: "hotel" },
+    { word: "սուպերմարկետ", pronunciation: "Supermarket", meaning: "supermarket" },
+    { word: "շուկա", pronunciation: "Shuka", meaning: "market" },
+    { word: "դեղատուն", pronunciation: "Deghatun", meaning: "pharmacy" },
+    { word: "փոստ", pronunciation: "Post", meaning: "post office" },
+    { word: "ոստիկանություն", pronunciation: "Vostikanutyun", meaning: "police station" },
+    { word: "հրշեջ կայան", pronunciation: "Hrjejj kayan", meaning: "fire station" },
+    { word: "բժշկական կենտրոն", pronunciation: "Bzhshkakan kentron", meaning: "medical center" },
+    { word: "կլինիկա", pronunciation: "Klinika", meaning: "clinic" },
+    { word: "բենզալցակայան", pronunciation: "Benzaltsakayan", meaning: "gas station" },
+
+    { word: "կայարան", pronunciation: "Kayaran", meaning: "station" },
+    { word: "երկաթուղային կայարան", pronunciation: "Erkatughayin kayaran", meaning: "train station" },
+    { word: "ավտոբուսի կանգառ", pronunciation: "Avtobusi kangar", meaning: "bus stop" },
+    { word: "օդանավակայան", pronunciation: "Odanavakayan", meaning: "airport" },
+    { word: "նավահանգիստ", pronunciation: "Navahangist", meaning: "port/harbor" },
+
+    { word: "փողոց", pronunciation: "Poghots", meaning: "street" },
+    { word: "հրապարակ", pronunciation: "Hraparak", meaning: "square/plaza" },
+    { word: "այգի", pronunciation: "Aygi", meaning: "park" },
+    { word: "պուրակ", pronunciation: "Purak", meaning: "park (small)" },
+    { word: "բակ", pronunciation: "Bak", meaning: "yard" },
+
+    { word: "քաղաք", pronunciation: "Kaghak", meaning: "city" },
+    { word: "գյուղ", pronunciation: "Gyugh", meaning: "village" },
+    { word: "թաղամաս", pronunciation: "Taghamas", meaning: "neighborhood" },
+    { word: "շենք", pronunciation: "Shenk", meaning: "building" },
+    { word: "բնակարան", pronunciation: "Bnakaran", meaning: "apartment" },
+
+    { word: "գրասենյակ", pronunciation: "Grasenyak", meaning: "office" },
+    { word: "աշխատավայր", pronunciation: "Ashkhatavair", meaning: "workplace" },
+    { word: "համալսարան", pronunciation: "Hamalsaran", meaning: "university" },
+    { word: "մանկապարտեզ", pronunciation: "Mankapartez", meaning: "kindergarten" },
+    { word: "դասարան", pronunciation: "Dasaran", meaning: "classroom" },
+
+    { word: "եկեղեցի", pronunciation: "Yekeghetsi", meaning: "church" },
+    { word: "վանք", pronunciation: "Vank", meaning: "monastery" },
+    { word: "մզկիթ", pronunciation: "Mzkith", meaning: "mosque" },
+
+    { word: "կինոթատրոն", pronunciation: "Kinotatron", meaning: "cinema" },
+    { word: "թատրոն", pronunciation: "Tatron", meaning: "theater" },
+    { word: "սպորտդահլիճ", pronunciation: "Sportdahlij", meaning: "gym" },
+    { word: "լողավազան", pronunciation: "Logavazan", meaning: "swimming pool" },
+
+    { word: "սրճարան", pronunciation: "Srtcharan", meaning: "cafe" },
+    { word: "բար", pronunciation: "Bar", meaning: "bar" },
+
+    { word: "լողափ", pronunciation: "Loghap", meaning: "beach" },
+    { word: "անտառ", pronunciation: "Antar", meaning: "forest" },
+    { word: "լիճ", pronunciation: "Lij", meaning: "lake" },
+    { word: "գետ", pronunciation: "Get", meaning: "river" },
+
+    { word: "զուգարան", pronunciation: "Zugaran", meaning: "toilet/restroom" },
+];

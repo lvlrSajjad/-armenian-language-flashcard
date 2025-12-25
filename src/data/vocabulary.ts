@@ -34,6 +34,7 @@ import {level21Data} from "./level-21.ts";
 import {level22Data} from "./level-22.ts";
 import {humanFaceAndBodyData} from "./human-face-and-body.ts";
 import {commonAdjectivesData} from "./50-common-adjectives.ts";
+import {commonPlaces} from "./50-common-places.ts";
 
 export const essentialDecks: Deck[] = [
     {
@@ -89,6 +90,12 @@ export const essentialDecks: Deck[] = [
         name: "🏠50 Most Used Everyday Objects",
         description: "Essential items you use and see daily",
         words: level5Data
+    },
+    {
+        id: "50-common-places",
+        name: "50 Most Used Places",
+        description: "Common locations and places in Armenian",
+        words: commonPlaces
     },
     {
         id: "level2-bossfight",
