@@ -32,6 +32,8 @@ import {level20Data} from "./level-20.ts";
 import {level20DatesOrdinalsData} from "./level-20-dates-ordinals.ts";
 import {level21Data} from "./level-21.ts";
 import {level22Data} from "./level-22.ts";
+import {humanFaceAndBodyData} from "./human-face-and-body.ts";
+import {commonAdjectivesData} from "./50-common-adjectives.ts";
 
 export const essentialDecks: Deck[] = [
     {
@@ -77,6 +79,12 @@ export const essentialDecks: Deck[] = [
         words: level4Data
     },
     {
+        id: "50-common-adjectives",
+        name: "50 Most Used Adjectives",
+        description: "Descriptive words to enhance your Armenian vocabulary",
+        words: commonAdjectivesData
+    },
+    {
         id: "level5-everyday-objects",
         name: "🏠50 Most Used Everyday Objects",
         description: "Essential items you use and see daily",
@@ -87,6 +95,12 @@ export const essentialDecks: Deck[] = [
         name: "Common Words",
         description: "Learn Basic Armenian Words!",
         words: level2Data,
+    },
+    {
+        id: "human-face-and-body-parts",
+        name: "Human Face and Body Parts",
+        description: "Learn essential vocabulary for human face and body parts",
+        words: humanFaceAndBodyData,
     },
 ]
 
