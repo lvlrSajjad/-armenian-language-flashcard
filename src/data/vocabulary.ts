@@ -72,6 +72,47 @@ export const essentialDecks: Deck[] = [
     },
 ]
 
+export const grammarDecks: Deck[] = [
+    {
+        id: "level11a-prepositions-basics",
+        name: "📍Prepositions - Basic Location Words",
+        description: "Learn core Armenian prepositions and 'in' (մեջ) with -ում ending",
+        words: level11AData
+    },
+    {
+        id: "level11b-prepositions-spatial",
+        name: "📍Prepositions - Spatial Relations",
+        description: "Master on, under, near, behind, and in front of with examples",
+        words: level11BData
+    },
+    {
+        id: "level11c-prepositions-relations",
+        name: "📍Prepositions - With, Without & Until",
+        description: "Practice between, above, below, with, without, and until expressions",
+        words: level11CData
+    },
+    {
+        id: "level21-definite-articles",
+        name: "📌Definite Articles - The (ը/ն)",
+        description: "Master using ը and ն to say 'the' in Armenian with practical examples",
+        words: level21Data,
+    },
+
+    {
+        id: "level22-definite-articles-quiz",
+        name: "🎯Definite Articles - Practice Quiz",
+        description: "Test yourself! Choose the correct definite article (ը or ն) for each sentence",
+        words: level22Data,
+    },
+    {
+        id: "level20-how-much",
+        name: "❓How Much/Many - Քանի (Qani)",
+        description: "Learn to ask about age and quantities using Քանի with all pronouns",
+        words: level20Data,
+    },
+
+]
+
 export const timeAndDateDecks: Deck[] = [
     {
         id: "level17-days-months",
@@ -155,24 +196,7 @@ export const decks: Deck[] = [
         description: "Master asking and answering 'whose' questions in Armenian",
         words: level10DData
     },
-    {
-        id: "level11a-prepositions-basics",
-        name: "📍 Level 11A: Prepositions - Basic Location Words",
-        description: "Learn core Armenian prepositions and 'in' (մեջ) with -ում ending",
-        words: level11AData
-    },
-    {
-        id: "level11b-prepositions-spatial",
-        name: "📍 Level 11B: Prepositions - Spatial Relations",
-        description: "Master on, under, near, behind, and in front of with examples",
-        words: level11BData
-    },
-    {
-        id: "level11c-prepositions-relations",
-        name: "📍 Level 11C: Prepositions - With, Without & Until",
-        description: "Practice between, above, below, with, without, and until expressions",
-        words: level11CData
-    },
+
     {
         id: "level12a-plurals-consonants",
         name: "🔢 Level 12A: Plurals - Consonant Endings (-եր)",
@@ -221,24 +245,7 @@ export const decks: Deck[] = [
         description: "Expand your Armenian vocabulary with advanced words and phrases",
         words: level19Data,
     },
-    {
-        id: "level20-how-much",
-        name: "❓ Level 20: How Much/Many - Քանի (Qani)",
-        description: "Learn to ask about age and quantities using Քանի with all pronouns",
-        words: level20Data,
-    },
-    {
-        id: "level21-definite-articles",
-        name: "📌 Level 21: Definite Articles - The (ը/ն)",
-        description: "Master using ը and ն to say 'the' in Armenian with practical examples",
-        words: level21Data,
-    },
-    {
-        id: "level22-definite-articles-quiz",
-        name: "🎯 Level 22: Definite Articles - Practice Quiz",
-        description: "Test yourself! Choose the correct definite article (ը or ն) for each sentence",
-        words: level22Data,
-    }
+
 ];
 
 export const categories: Category[] = [
@@ -247,6 +254,12 @@ export const categories: Category[] = [
         name: "🔥 Essential",
         description: "Alphabet, Numbers, and Basic Words",
         decks: essentialDecks,
+    },
+    {
+        id: "grammar",
+        name: "Grammar",
+        description: "Practice Grammar Topics in Armenian",
+        decks: grammarDecks,
     },
     {
         id: "date-and-time",
