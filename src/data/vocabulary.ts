@@ -65,6 +65,24 @@ export const essentialDecks: Deck[] = [
         words: level17Data
     },
     {
+        id: "level3-verbs",
+        name: "🏃‍♂️Most Used Verbs (Present Tense)",
+        description: "Master the most common Armenian verbs in present tense",
+        words: level3Data
+    },
+    {
+        id: "level4-jobs",
+        name: "💼50 Most Used Jobs",
+        description: "Common professions and occupations in Armenian",
+        words: level4Data
+    },
+    {
+        id: "level5-everyday-objects",
+        name: "🏠50 Most Used Everyday Objects",
+        description: "Essential items you use and see daily",
+        words: level5Data
+    },
+    {
         id: "level2-bossfight",
         name: "Common Words",
         description: "Learn Basic Armenian Words!",
@@ -137,24 +155,6 @@ export const timeAndDateDecks: Deck[] = [
         name: "📆 Level 20: Dates & Ordinal Numbers",
         description: "Learn to express dates, ask 'երբ' (when) questions, and use ordinal numbers with months",
         words: level20DatesOrdinalsData,
-    },
-    {
-        id: "level3-verbs",
-        name: "🏃‍♂️Most Used Verbs (Present Tense)",
-        description: "Master the most common Armenian verbs in present tense",
-        words: level3Data
-    },
-    {
-        id: "level4-jobs",
-        name: "💼50 Most Used Jobs",
-        description: "Common professions and occupations in Armenian",
-        words: level4Data
-    },
-    {
-        id: "level5-everyday-objects",
-        name: "🏠50 Most Used Everyday Objects",
-        description: "Essential items you use and see daily",
-        words: level5Data
     },
 ]
 
