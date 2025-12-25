@@ -98,12 +98,6 @@ export const essentialDecks: Deck[] = [
         words: commonPlaces
     },
     {
-        id: "level2-bossfight",
-        name: "Common Words",
-        description: "Learn Basic Armenian Words!",
-        words: level2Data,
-    },
-    {
         id: "human-face-and-body-parts",
         name: "Human Face and Body Parts",
         description: "Learn essential vocabulary for human face and body parts",
@@ -236,6 +230,12 @@ export const timeAndDateDecks: Deck[] = [
 
 export const decks: Deck[] = [
     {
+        id: "level2-bossfight",
+        name: "Common Words",
+        description: "Learn Basic Armenian Words!",
+        words: level2Data,
+    },
+    {
         id: "level6-mixed-vocabulary",
         name: "📝 Level 6: Mixed Vocabulary",
         description: "Additional useful words for everyday conversation",
@@ -291,7 +291,7 @@ export const categories: Category[] = [
     },
     {
         id: "all-levels",
-        name: "📚 All Levels",
+        name: "📚 Other",
         description: "Complete Armenian learning path from alphabet to advanced grammar",
         decks: decks,
     }
