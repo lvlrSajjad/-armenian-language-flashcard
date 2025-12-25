@@ -102,9 +102,64 @@ export const essentialDecks: Deck[] = [
         description: "Learn essential vocabulary for human face and body parts",
         words: humanFaceAndBodyData,
     },
+    {
+        id: "level16-imperatives",
+        name: "👉Basic Imperatives - Commands",
+        description: "Learn how to give commands and make requests in Armenian (simple present tense)",
+        words: level16Data
+    },
 ]
 
 export const grammarDecks: Deck[] = [
+    {
+        id: "level9-question-examples",
+        name: "💭 Level 9: Question Examples",
+        description: "Practice question words with real-life examples",
+        words: level9Data
+    },
+    {
+        id: "level10a-grammar-to-be",
+        name: "📖 Level 10A: Grammar - 'To Be' Conjugations",
+        description: "Master 'to be' in positive and negative forms with all pronouns",
+        words: level10AData
+    },
+    {
+        id: "level10b-grammar-possessives",
+        name: "📖 Level 10B: Grammar - Possessive Pronouns",
+        description: "Master my, your, his/her, our, and their with practice",
+        words: level10BData
+    },
+    {
+        id: "level10c-grammar-whose",
+        name: "📖 Level 10C: Grammar - Whose/Whom (ում)",
+        description: "Master asking and answering 'whose' questions in Armenian",
+        words: level10CData
+    },
+    {
+        id: "level10d-advanced-posessives",
+        name: "📖 Level 10D: Grammar - Advanced Posessives",
+        description: "Master asking and answering 'whose' questions in Armenian",
+        words: level10DData
+    },
+
+    {
+        id: "level12a-plurals-consonants",
+        name: "🔢 Level 12A: Plurals - Consonant Endings (-եր)",
+        description: "Practice adding -եր to words ending with consonants",
+        words: level12AData
+    },
+    {
+        id: "level12b-plurals-vowels",
+        name: "🔢 Level 12B: Plurals - Vowel Endings (-ներ)",
+        description: "Practice adding -ներ to words ending with vowels",
+        words: level12BData
+    },
+    {
+        id: "level12c-plurals-special",
+        name: "🔢 Level 12C: Plurals - Special Cases & Practice",
+        description: "Master classical -ն words, modern -ն words, and irregular plurals",
+        words: level12CData
+    },
     {
         id: "level11a-prepositions-basics",
         name: "📍Prepositions - Basic Location Words",
@@ -172,7 +227,6 @@ export const timeAndDateDecks: Deck[] = [
     },
 ]
 
-
 export const decks: Deck[] = [
     {
         id: "level6-mixed-vocabulary",
@@ -180,55 +234,7 @@ export const decks: Deck[] = [
         description: "Additional useful words for everyday conversation",
         words: level6Data
     },
-    {
-        id: "level9-question-examples",
-        name: "💭 Level 9: Question Examples",
-        description: "Practice question words with real-life examples",
-        words: level9Data
-    },
-    {
-        id: "level10a-grammar-to-be",
-        name: "📖 Level 10A: Grammar - 'To Be' Conjugations",
-        description: "Master 'to be' in positive and negative forms with all pronouns",
-        words: level10AData
-    },
-    {
-        id: "level10b-grammar-possessives",
-        name: "📖 Level 10B: Grammar - Possessive Pronouns",
-        description: "Master my, your, his/her, our, and their with practice",
-        words: level10BData
-    },
-    {
-        id: "level10c-grammar-whose",
-        name: "📖 Level 10C: Grammar - Whose/Whom (ում)",
-        description: "Master asking and answering 'whose' questions in Armenian",
-        words: level10CData
-    },
-    {
-        id: "level10d-advanced-posessives",
-        name: "📖 Level 10D: Grammar - Advanced Posessives",
-        description: "Master asking and answering 'whose' questions in Armenian",
-        words: level10DData
-    },
 
-    {
-        id: "level12a-plurals-consonants",
-        name: "🔢 Level 12A: Plurals - Consonant Endings (-եր)",
-        description: "Practice adding -եր to words ending with consonants",
-        words: level12AData
-    },
-    {
-        id: "level12b-plurals-vowels",
-        name: "🔢 Level 12B: Plurals - Vowel Endings (-ներ)",
-        description: "Practice adding -ներ to words ending with vowels",
-        words: level12BData
-    },
-    {
-        id: "level12c-plurals-special",
-        name: "🔢 Level 12C: Plurals - Special Cases & Practice",
-        description: "Master classical -ն words, modern -ն words, and irregular plurals",
-        words: level12CData
-    },
     {
         id: "level13-story-vocabulary",
         name: "📖 Level 13: Story Vocabulary - The Rabbit & The Cloud",
@@ -247,12 +253,7 @@ export const decks: Deck[] = [
         description: "Master coffee ordering vocabulary and full conversation phrases",
         words: level15Data
     },
-    {
-        id: "level16-imperatives",
-        name: "👉 Level 16: Basic Imperatives - Commands",
-        description: "Learn how to give commands and make requests in Armenian (simple present tense)",
-        words: level16Data
-    },
+
     {
         id: "level19-advanced-vocabulary",
         name: "🌟 Level 19: Advanced Vocabulary & Expressions",
@@ -271,8 +272,8 @@ export const categories: Category[] = [
     },
     {
         id: "grammar",
-        name: "Grammar",
-        description: "Practice Grammar Topics in Armenian",
+        name: "General Grammar",
+        description: "Master Armenian grammar concepts and rules",
         decks: grammarDecks,
     },
     {
